@@ -19,7 +19,7 @@ def change_num():
 
 def print_hello():
     #st.image(f'{i+1}.png')
-    #st.image('1.jpg')
+    st.image('1.jpg')
 
 
 st.button("Новый вопрос", on_click=change_num)
