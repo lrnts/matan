@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-numbers = [i for i in range(0, 44)]
+numbers = [i for i in range(0, 45)]
 
 if 'my_num' not in st.session_state:
     st.session_state.my_num = random.choice(numbers)
