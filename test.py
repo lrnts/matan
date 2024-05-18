@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-from PIL import Image
 
 numbers = [i for i in range(0, 44)]
 
@@ -19,8 +18,8 @@ def change_num():
     st.session_state.my_num = random.choice(numbers)
 
 def print_hello():
-    img = Image.open(f'{i+1}.png')
-    st.image(img)
+    
+    st.image(f'{i+1}.png')
 
 
 st.button("Новый вопрос", on_click=change_num)
