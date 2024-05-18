@@ -18,7 +18,7 @@ def change_num():
     st.session_state.my_num = random.choice(numbers)
 
 def print_hello():
-    
+    df[f'{i+1}.png].str.replace('\\', '/') 
     st.image(f'{i+1}.png')
 
 
