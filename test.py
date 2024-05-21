@@ -4,7 +4,7 @@ import random
 numbers = [i for i in range(0, 35)]
 
 if 'my_num' not in st.session_state:
-    st.session_state.my_num = random.choice(numbers)
+    st.session_state.my_num = random.randint(0, 34)
 
 i = st.session_state.my_num
 
